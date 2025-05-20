@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HR&AZ</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #d9d9d9, #eeeeee);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 450px;
+      width: 100%;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.75rem;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subtitle {
+      font-size: 1.25rem;
+      color: #666;
+      font-weight: 500;
+    }
+
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      background-color: #e0e0e0;
+      border: none;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .web {
+      background-color: #3b82f6; /* Azul */
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); /* Degradado Instagram */
+    }
+
+    .whatsapp {
+      background-color: #25d366; /* Verde WhatsApp */
+    }
+
+    .links a:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .icon-placeholder {
+      width: 24px;
+      height: 24px;
+      background-color: white;
+      border-radius: 50%;
+      opacity: 0.8;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.875rem;
+      color: #999;
+    }
+
+    footer a {
+      color: #333;
+      text-decoration: underline;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #555;
+    }
+
+    @media (min-width: 640px) {
+      h1 {
+        font-size: 3.5rem;
+      }
+
+      p.subtitle {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>HR&AZ</h1>
+      <p class="subtitle">Importadora y comercializadora de alimentos para mascotas</p>
+    </header>
+
+    <div class="links">
+      <!-- Website -->
+      <a href="https://www.hraz.cl " target="_blank" class="web">
+        <span class="icon-placeholder"></span>
+        Visita nuestra web
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hraz.chile " target="_blank" class="instagram">
+        <span class="icon-placeholder"></span>
+        Síguenos en Instagram
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/56993429704 " target="_blank" class="whatsapp">
+        <span class="icon-placeholder"></span>
+        Escríbenos por WhatsApp
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; HR&AZ - Todos los derechos reservados</p>
+      <p>
+        Desarrollado por 
+        <a href="https://obenmedia.cl " target="_blank">obenmedia.cl</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
